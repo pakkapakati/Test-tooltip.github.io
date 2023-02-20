@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.table {
+  margin-bottom: 0 !important;
+}
+.extraClass {
+  font-size: 23px !important;
+  pointer-events: auto !important;
+  padding: 3px !important;
+  margin: 0 !important;
+  border-width: 2px !important;
+  border-style: solid !important;
+  border-color: #d0c4c4 !important;
+}
+.__react_component_tooltip.place-bottom:after {
+  display: none;
+}
+.table thead {
+   display: none;
+}
+.extraClass:hover {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+.table {
+    border-spacing: 2px !important;
+    border-collapse: separate;
+}
+table tr:nth-child(odd) {
+    background-color: #c5c8ec;
+}
+table td:nth-child(2) {
+    text-align: right !important;
+}
+table td:nth-child(1) {
+    background-color: #bdc0eb;
+    font-weight: bold;
+    text-align: left !important;
+}
+table tr:nth-child(even) td:nth-child(1) {
+    background-color: #c4c6e9;
+}
